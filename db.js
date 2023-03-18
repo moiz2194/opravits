@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const uri='mongodb+srv://pride:pride@cluster0.iicgiei.mongodb.net/new?retryWrites=true&w=majority';
+const uri='secret';
 const connecttomongo=()=>
 {
     mongoose.connect(uri).then((data)=>{
